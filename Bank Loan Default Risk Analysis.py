@@ -2,7 +2,7 @@
 """
 @author: user - Sanket Jadhav
 """
-
+# Import Python Libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -18,6 +18,7 @@ style.use('fivethirtyeight')
 import warnings
 warnings.filterwarnings('ignore')
 
+# Importing the input files
 applicationDF = pd.read_csv(r'D:\07-SANKET\DATA SCIENCE\0.A - DS Projects\A - CapStone Projects\Bank Loan Default Risk Analysis (EDA )\application_data.csv')
 previousDF = pd.read_csv(r'D:\07-SANKET\DATA SCIENCE\0.A - DS Projects\A - CapStone Projects\Bank Loan Default Risk Analysis (EDA )\previous_application.csv')
 
